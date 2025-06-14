@@ -19,7 +19,7 @@ This Jupyter Notebook ATTEMPTS to demonstrate:
 3. Open and run `etl_extract.ipynb`
 
 ## Data Source
-Sample sales data generated for this exercise (50+ records). "sales_data_large.csv"
+Sample data generated for this exercise (50+ records). "sales_data_large.csv"
 
 ## New Updates
 - Added transformation logic for full and incremental datasets
