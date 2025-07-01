@@ -1,0 +1,10 @@
+# Set initial last extraction time (e.g., halfway through the data range)
+with open("last_extraction.txt", "w") as f:
+    f.write("2025-04-20 12:00:00") 
+    # Get the most recent update
+new_checkpoint = df['last_updated'].max()
+# Save it
+with open("last_extraction.txt", "w") as f:
+    f.write(new_checkpoint.isoformat())
+    print(f"Updated last_extraction.txt to {new_checkpoint}")
+    
