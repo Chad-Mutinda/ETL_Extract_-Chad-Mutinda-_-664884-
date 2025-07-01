@@ -34,4 +34,3 @@ Sample data generated for this exercise (50+ records). "sales_data_large.csv"
    - transformed_full.csv
    - transformed_incremental.csv
   
-I have included "Lab 5 Files" which contains screenshots and files of the data transformation of "sales_data_large".   
